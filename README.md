@@ -1,7 +1,7 @@
 # Literature
-Local BLAST database creation: https://www.ncbi.nlm.nih.gov/books/NBK279688/
-Local BLAST biopython documentation: https://biopython.readthedocs.io/en/latest/Tutorial/chapter_blast.html
-TogoWS Rest API: http://togows.org/
+1. Local BLAST database creation: https://www.ncbi.nlm.nih.gov/books/NBK279688/
+2. Local BLAST biopython documentation: https://biopython.readthedocs.io/en/latest/Tutorial/chapter_blast.html
+3. TogoWS Rest API: http://togows.org/
 
 # Dependencies
 1. BLAST+ suite: https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download
