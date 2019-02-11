@@ -15,7 +15,7 @@ from Controllers import BlastController
 
 def main():
     #Change the KEGG organism identifiers to your organisms
-    #https://www.genome.jp/kegg/catalog/org_list.htmlhttps://www.genome.jp/kegg/catalog/org_list.html
+    #https://www.genome.jp/kegg/catalog/org_list.html
     blastController = BlastController('hsa',
                                       'bta',
                                       'phd', pathway_id = "00040") (00040 is default)
