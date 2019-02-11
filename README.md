@@ -1,3 +1,4 @@
+
 # Literature
 1. Local BLAST database creation: https://www.ncbi.nlm.nih.gov/books/NBK279688/
 2. Local BLAST biopython documentation: https://biopython.readthedocs.io/en/latest/Tutorial/chapter_blast.html
@@ -27,3 +28,9 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+# Output
+1. The acquired genes and nucleotide sequences will be exported to fasta files grouped on organism
+2. The ran BLAST output will be exported as XML files
+
+All files will be saved to the /Data/Output
+
