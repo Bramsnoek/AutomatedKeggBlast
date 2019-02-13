@@ -14,6 +14,8 @@ class BlastController(object):
             print(entry.get_aa_fasta())
 
     def blast(self, blast_type: BlastType, database = "nr", evalue = 0.01, output_dir = "Data/Output"):
+        os.makedirs(output_dir, exist_ok=True)
+
         with concurrent.futures.ThreadPoolExecutor(max_workers=len(self.__pathway.get_entries())) as executor:
             blast_result_to_future = {
                 executor.submit(self.__blast, blast_type.name, entry, database, evalue, output_dir): entry for entry in self.__pathway.get_entries()
