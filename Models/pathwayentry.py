@@ -9,9 +9,15 @@ class PathwayEntry(object):
     def __str__(self):
         return "\n\t Organism: {} \n {}".format(self.__org, ''.join(str(gene) for gene in self.__genes))
 
-    def get_nc_fasta(self):
-        return ''.join(">{}:{} {}\n{}\n".format(self.__org, x.get_gene_id(), x.get_description(), x.get_nt_sequence()) for x in self.__genes)
+    def get_fasta(self, protein):
+        if protein:
+            return self.__get_aa_fasta()
+        else:
+            return self.__get_nc_fasta()
 
-    def get_aa_fasta(self):
-        return ''.join(">{}:{} {}\n{}\n".format(self.__org, x.get_gene_id(), x.get_description(), x.get_aa_sequence()) for x in self.__genes)
+    def __get_nc_fasta(self):
+        return ''.join(">{}\n{}\n".format(x.get_gene_id(), x.get_nt_sequence()) for x in self.__genes)
+
+    def __get_aa_fasta(self):
+        return ''.join(">{}\n{}\n".format(x.get_gene_id(), x.get_aa_sequence()) for x in self.__genes)
 

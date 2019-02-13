@@ -8,7 +8,7 @@ def main():
     #K. lactis => kla
     #C. albicans => cal
     blastController = BlastController('yli', 'bhan', 'kla', 'cal')
-    blastController.blast(blast_type=BlastType.tblastn, database="C:\\Users\\bram\\PycharmProjects\\\AutomatedKeggBlast\\Data\\Input\\Debaryomyces_occidentalis.fas")
+    blastController.blast(blast_type=BlastType.tblastx, database="C:\\Users\\brams\\Documents\\AutomatedKeggBlast\\Data\\Input\\Debaryomyces_occidentalis.fas")
 
 
 if __name__ == '__main__':

@@ -1,0 +1,923 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>tblastx</BlastOutput_program>
+  <BlastOutput_version>TBLASTX 2.8.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>C:\Users\brams\Documents\AutomatedKeggBlast\Data\Input\Debaryomyces_occidentalis.fas</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>CGC63_02120</BlastOutput_query-def>
+  <BlastOutput_query-len>864</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.01</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>L;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>CGC63_02120</Iteration_query-def>
+  <Iteration_query-len>864</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>64</Statistics_db-num>
+      <Statistics_db-len>13164083</Statistics_db-len>
+      <Statistics_hsp-len>43</Statistics_hsp-len>
+      <Statistics_eff-space>1074392375</Statistics_eff-space>
+      <Statistics_kappa>0.133956144488482</Statistics_kappa>
+      <Statistics_lambda>0.317605957635731</Statistics_lambda>
+      <Statistics_entropy>0.401214524497119</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_2</Iteration_query-ID>
+  <Iteration_query-def>CGC63_06225</Iteration_query-def>
+  <Iteration_query-len>678</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|31</Hit_id>
+  <Hit_def>DOC_63 [organism=Schwanniomyces occidentalis]</Hit_def>
+  <Hit_accession>31</Hit_accession>
+  <Hit_len>1160644</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.7553</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>4.45359e-33</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>289272</Hsp_hit-from>
+      <Hsp_hit-to>289481</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>KIMLKKGYGKIINIASMVSWFGGQTVPAYSAAKGGVTQMTKEMSNDWIARGINVNAIAPGYMATKMNEAL</Hsp_qseq>
+      <Hsp_hseq>KMLETKTKGNIVFTGSLLSFQGGEHSIPYAIAKGGIKQFTQALSNEWSYRGIRVNCIAPGYIKTEMTDSM</Hsp_hseq>
+      <Hsp_midline>K++  K  G I+   S++S+ GG+    Y+ AKGG+ Q T+ +SN+W  RGI VN IAPGY+ T+M +++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>57.427</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>4.45359e-33</Hsp_evalue>
+      <Hsp_query-from>541</Hsp_query-from>
+      <Hsp_query-to>678</Hsp_query-to>
+      <Hsp_hit-from>289503</Hsp_hit-from>
+      <Hsp_hit-to>289640</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>ITERIPANRWGTGDDMKGCCIFLASHASDYLGGAIIPVDGGYLVK*</Hsp_qseq>
+      <Hsp_hseq>LLERIPMGRWGNIDDLQGPIVFLVSEASRYITGETLVVDGGWLAS*</Hsp_hseq>
+      <Hsp_midline>+ ERIP  RWG  DD++G  +FL S AS Y+ G  + VDGG+L  *</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>42.3061</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>4.45359e-33</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>289134</Hsp_hit-from>
+      <Hsp_hit-to>289283</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>GDVDILVNAHGIQRRHSAEEFPIAEWDEVMNVNLNSVFILCQEAAKIMLK</Hsp_qseq>
+      <Hsp_hseq>GKIDILINNSGITYRTPFEEFPQDKFDEVIKVNLTIPVKLTKRIGMKMLE</Hsp_hseq>
+      <Hsp_midline>G +DIL+N  GI  R   EEFP  ++DEV+ VNL     L +     ML+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>41.3897</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.000557119</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>503</Hsp_query-to>
+      <Hsp_hit-from>289364</Hsp_hit-from>
+      <Hsp_hit-to>289474</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>SFIFVAIYPGAIAFTLIPLAIQSLLISFVI*VTPPFA</Hsp_qseq>
+      <Hsp_hseq>SVISVLIYPGAIQLTLIPLYDHSLESAWVNCLIPPFA</Hsp_hseq>
+      <Hsp_midline>S I V IYPGAI  TLIPL   SL  ++V  + PPFA</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>28.5598</Hsp_bit-score>
+      <Hsp_score>56</Hsp_score>
+      <Hsp_evalue>0.00239221</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>289133</Hsp_hit-from>
+      <Hsp_hit-to>289234</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>KFTFITSSHSAIGNSSAL*RL*IPWAFTKISTSP</Hsp_qseq>
+      <Hsp_hseq>KFTLITSSNLSCGNSSNGVR*VMPELLIRISILP</Hsp_hseq>
+      <Hsp_midline>KFT ITSS+ + GNSS   R  +P    +IS  P</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>6</Hsp_num>
+      <Hsp_bit-score>27.6434</Hsp_bit-score>
+      <Hsp_score>54</Hsp_score>
+      <Hsp_evalue>0.00239221</Hsp_evalue>
+      <Hsp_query-from>364</Hsp_query-from>
+      <Hsp_query-to>507</Hsp_query-to>
+      <Hsp_hit-from>289335</Hsp_hit-from>
+      <Hsp_hit-to>289478</Hsp_hit-to>
+      <Hsp_query-frame>-1</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>RLIHFCCHISRCNSVYINSSGNPVITHFFRHLSHPAFCC*ICRHCLTS</Hsp_qseq>
+      <Hsp_hseq>RIGHFSFDISRSNTIDPYSSV*PFIRERLGKLFNTAFCNRIRNRVFTS</Hsp_hseq>
+      <Hsp_midline>R+ HF   ISR N++   SS  P I      L + AFC  I     TS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|9</Hit_id>
+  <Hit_def>DOC_56 [organism=Schwanniomyces occidentalis]</Hit_def>
+  <Hit_accession>9</Hit_accession>
+  <Hit_len>1122088</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.421</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>3.90736e-32</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>519</Hsp_query-to>
+      <Hsp_hit-from>1112206</Hsp_hit-from>
+      <Hsp_hit-to>1112424</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>KIMLKKGYGKIINIASMVSWFGGQTVPAYSAAKGGVTQMTKEMSNDWIARGINVNAIAPGYMATKMNEALLDE</Hsp_qseq>
+      <Hsp_hseq>KMLETKTKGSIIFTASLCSFQGGVDSTAYAITKGGIKQFTAALSNDWSLKGIRVNAIAPGYISTNLTDQINDD</Hsp_hseq>
+      <Hsp_midline>K++  K  G II  AS+ S+ GG    AY+  KGG+ Q T  +SNDW  +GI VNAIAPGY++T + + + D+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>53.7613</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>3.90736e-32</Hsp_evalue>
+      <Hsp_query-from>541</Hsp_query-from>
+      <Hsp_query-to>669</Hsp_query-to>
+      <Hsp_hit-from>1112065</Hsp_hit-from>
+      <Hsp_hit-to>1112193</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>43</Hsp_align-len>
+      <Hsp_qseq>ITERIPANRWGTGDDMKGCCIFLASHASDYLGGAIIPVDGGYL</Hsp_qseq>
+      <Hsp_hseq>LINRIPIGRWGNLDDFQGPAVFLCSEASRYVTGETLVVDGGWL</Hsp_hseq>
+      <Hsp_midline>+  RIP  RWG  DD +G  +FL S AS Y+ G  + VDGG+L</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>39.0986</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>3.90736e-32</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>1112458</Hsp_hit-from>
+      <Hsp_hit-to>1112562</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>GDVDILVNAHGIQRRHSAEEFPIAEWDEVMNVNLN</Hsp_qseq>
+      <Hsp_hseq>GKIDILINNAGINNRIPFALFPQDKFDEVLRVNLN</Hsp_hseq>
+      <Hsp_midline>G +DIL+N  GI  R     FP  ++DEV+ VNLN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>35.8912</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>9.3436e-05</Hsp_evalue>
+      <Hsp_query-from>342</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>1112234</Hsp_hit-from>
+      <Hsp_hit-to>1112383</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VAIYPGAIAFTLIPLAIQSLLISFVI*VTPPFAAEYAGTV*PPNHETIDA</Hsp_qseq>
+      <Hsp_hseq>VLI*PGAIALTLIPFRDQSLERAAVNCLMPPFVIA*AVESTPP*KEQSEA</Hsp_hseq>
+      <Hsp_midline>V I PGAIA TLIP   QSL  + V  + PPF    A    PP  E  +A</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>25.3524</Hsp_bit-score>
+      <Hsp_score>49</Hsp_score>
+      <Hsp_evalue>9.3436e-05</Hsp_evalue>
+      <Hsp_query-from>165</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1112459</Hsp_hit-from>
+      <Hsp_hit-to>1112563</Hsp_hit-to>
+      <Hsp_query-frame>-2</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>35</Hsp_align-len>
+      <Hsp_qseq>FKFTFITSSHSAIGNSSAL*RL*IPWAFTKISTSP</Hsp_qseq>
+      <Hsp_hseq>FKFTLKTSSNLS*GNNANGIRLLMPALLINMSIFP</Hsp_hseq>
+      <Hsp_midline>FKFT  TSS+ + GN++   RL +P     +S  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|41</Hit_id>
+  <Hit_def>DOC_60 [organism=Schwanniomyces occidentalis]</Hit_def>
+  <Hit_accession>41</Hit_accession>
+  <Hit_len>1545087</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9225</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>9.01496e-14</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>1258212</Hsp_hit-from>
+      <Hsp_hit-to>1258523</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>GDVDILVNAHGIQRRHSAEEFPIAEWDEVMNVNLNSVFILCQEAAKIMLKKGYGKIINIASMVSWFGGQTVPAYSAAKGGVTQMTKEMSNDWIARGINVNAIAP</Hsp_qseq>
+      <Hsp_hseq>GTIDILVNNAGVLRDKSFIKMTDAEWYQVQKVHLNGTFNLTRFAWPYFLEKKYGRVINITSTSGIYGNFGQANYATAKAAVLGFSRTIAIEGARSNIKVNVVAP</Hsp_hseq>
+      <Hsp_midline>G +DILVN  G+ R  S  +   AEW +V  V+LN  F L + A    L+K YG++INI S    +G      Y+ AK  V   ++ ++ +     I VN +AP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>52.3867</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>9.168e-14</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>624</Hsp_query-to>
+      <Hsp_hit-from>1326579</Hsp_hit-from>
+      <Hsp_hit-to>1326818</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>YSAAKGGVTQMTKEMSNDWIARGINVNAIAPGYMATKMNEALLDEKNPRYQQITERIPANRWGTGDDMKGCCIFLASHAS</Hsp_qseq>
+      <Hsp_hseq>YNMSKAGVIHLTRSLACEWAKYNIRVNTLSPGYILTPLTRNVIQGHTEMKEAWESKIPMKRMAEPKEFVGSILYLASDSA</Hsp_hseq>
+      <Hsp_midline>Y+ +K GV  +T+ ++ +W    I VN ++PGY+ T +   ++       +    +IP  R     +  G  ++LAS ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>40.0151</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>9.168e-14</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>1326306</Hsp_hit-from>
+      <Hsp_hit-to>1326497</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>EQVYRGFEQCIEKLGGDVDILVNAHGIQRRHSAEEFPIAEWDEVMNVNLNSVFILCQEAAKIML</Hsp_qseq>
+      <Hsp_hseq>ETVEQTFAAVNEKHGKIADLLINTAGYCENFPAEEYPAVNAEGIMKVNALGAFYVSQSFARPLI</Hsp_hseq>
+      <Hsp_midline>E V + F    EK G   D+L+N  G      AEE+P    + +M VN    F + Q  A+ ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>58.3434</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>4.41303e-09</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>477</Hsp_query-to>
+      <Hsp_hit-from>1259124</Hsp_hit-from>
+      <Hsp_hit-to>1259435</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>GDVDILVNAHGIQRRHSAEEFPIAEWDEVMNVNLNSVFILCQEAAKIMLKKGYGKIINIASMVSWFGGQTVPAYSAAKGGVTQMTKEMSNDWIARGINVNAIAP</Hsp_qseq>
+      <Hsp_hseq>GTVHVLINNAGILRDAQFKKMSEKDFQLVIDVHVNGAYKATQAAWPYFRKQSYGRIINTASPAGLYGNFGQANYSAAKLGLVGFAETLAKEGDKYNIKANVITP</Hsp_hseq>
+      <Hsp_midline>G V +L+N  GI R    ++    ++  V++V++N  +   Q A     K+ YG+IIN AS    +G      YSAAK G+    + ++ +     I  N I P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|20</Hit_id>
+  <Hit_def>DOC_51 [organism=Schwanniomyces occidentalis]</Hit_def>
+  <Hit_accession>20</Hit_accession>
+  <Hit_len>1253761</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9688</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.71054e-13</Hsp_evalue>
+      <Hsp_query-from>325</Hsp_query-from>
+      <Hsp_query-to>522</Hsp_query-to>
+      <Hsp_hit-from>1035466</Hsp_hit-from>
+      <Hsp_hit-to>1035663</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>GKIINIASMVSWFGGQTVPAYSAAKGGVTQMTKEMSNDWIARGINVNAIAPGYMATKMNEALLDEK</Hsp_qseq>
+      <Hsp_hseq>GKIINISSILRYNAFTHSTPYTIAKAVSHNLTKTLSNEWAAKGVNVNALATGPTDTELAQEIRKQR</Hsp_hseq>
+      <Hsp_midline>GKIINI+S++ +        Y+ AK     +TK +SN+W A+G+NVNA+A G   T++ + +  ++</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.5166</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.71054e-13</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>1035295</Hsp_hit-from>
+      <Hsp_hit-to>1035438</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>VDILVNAHGIQRRHSAEEFPIAEWDEVMNVNLNSVFILCQEAAKIMLK</Hsp_qseq>
+      <Hsp_hseq>IDILIDNAALAKAITTVDITLKDYEEILTVNLKAPFILLKIVDKHMMK</Hsp_hseq>
+      <Hsp_midline>+DIL++   + +  +  +  + +++E++ VNL + FIL +   K M+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|28</Hit_id>
+  <Hit_def>DOC_57 [organism=Schwanniomyces occidentalis]</Hit_def>
+  <Hit_accession>28</Hit_accession>
+  <Hit_len>979857</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.9718</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>2.03518e-12</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>516</Hsp_query-to>
+      <Hsp_hit-from>896996</Hsp_hit-from>
+      <Hsp_hit-to>897127</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>YSAAKGGVTQMTKEMSNDWIARGINVNAIAPGYMATKMNEALLD</Hsp_qseq>
+      <Hsp_hseq>YLASKAGVSHLGKNLAIQLGPKNINVNSLAPGFFPTKMSNGLLE</Hsp_hseq>
+      <Hsp_midline>Y A+K GV+ + K ++     + INVN++APG+  TKM+  LL+</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>41.8479</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>2.03518e-12</Hsp_evalue>
+      <Hsp_query-from>556</Hsp_query-from>
+      <Hsp_query-to>663</Hsp_query-to>
+      <Hsp_hit-from>897158</Hsp_hit-from>
+      <Hsp_hit-to>897265</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>36</Hsp_align-len>
+      <Hsp_qseq>PANRWGTGDDMKGCCIFLASHASDYLGGAIIPVDGG</Hsp_qseq>
+      <Hsp_hseq>PRGRLGVKEDIQNATLFLCAKESSYINGIVLPVDGG</Hsp_hseq>
+      <Hsp_midline>P  R G  +D++   +FL +  S Y+ G ++PVDGG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>48.721</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>3.47826e-06</Hsp_evalue>
+      <Hsp_query-from>385</Hsp_query-from>
+      <Hsp_query-to>525</Hsp_query-to>
+      <Hsp_hit-from>440113</Hsp_hit-from>
+      <Hsp_hit-to>440253</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YSAAKGGVTQMTKEMSNDWIARGINVNAIAPGYMATKMNEALLDEKN</Hsp_qseq>
+      <Hsp_hseq>YLATKDGISHLGKNLAIQLGPRNINVNIITPGFFATKMTNFLINNKN</Hsp_hseq>
+      <Hsp_midline>Y A K G++ + K ++     R INVN I PG+ ATKM   L++ KN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|44</Hit_id>
+  <Hit_def>DOC_54 [organism=Schwanniomyces occidentalis]</Hit_def>
+  <Hit_accession>44</Hit_accession>
+  <Hit_len>996482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.2225</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>1.43861e-07</Hsp_evalue>
+      <Hsp_query-from>238</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>563830</Hsp_hit-from>
+      <Hsp_hit-to>563943</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>EWDEVMNVNLNSVFILCQEAAKIMLKKGYGKIINIASM</Hsp_qseq>
+      <Hsp_hseq>EWHNVMNVDLNGVYYCAKNIGKIFRKQGKGSMIMTASM</Hsp_hseq>
+      <Hsp_midline>EW  VMNV+LN V+   +   KI  K+G G +I  ASM</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.4733</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>1.43861e-07</Hsp_evalue>
+      <Hsp_query-from>553</Hsp_query-from>
+      <Hsp_query-to>666</Hsp_query-to>
+      <Hsp_hit-from>559943</Hsp_hit-from>
+      <Hsp_hit-to>560056</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>IPANRWGTGDDMKGCCIFLASHASDYLGGAIIPVDGGY</Hsp_qseq>
+      <Hsp_hseq>IPLGREGITQELVGAYLYLASDASTYTTGSDIIVDGGY</Hsp_hseq>
+      <Hsp_midline>IP  R G   ++ G  ++LAS AS Y  G+ I VDGGY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|27</Hit_id>
+  <Hit_def>DOC_61 [organism=Schwanniomyces occidentalis]</Hit_def>
+  <Hit_accession>27</Hit_accession>
+  <Hit_len>371660</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.3494</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.77466e-07</Hsp_evalue>
+      <Hsp_query-from>511</Hsp_query-from>
+      <Hsp_query-to>660</Hsp_query-to>
+      <Hsp_hit-from>144632</Hsp_hit-from>
+      <Hsp_hit-to>144781</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>LDEKNPRYQQITERIPANRWGTGDDMKGCCIFLASHASDYLGGAIIPVDG</Hsp_qseq>
+      <Hsp_hseq>LERLVPNLDSFVRKIPLQRLGTTRDIAEATVYLFSPAASYVTGTVQVVDG</Hsp_hseq>
+      <Hsp_midline>L+   P       +IP  R GT  D+    ++L S A+ Y+ G +  VDG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>34.5166</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.77466e-07</Hsp_evalue>
+      <Hsp_query-from>310</Hsp_query-from>
+      <Hsp_query-to>480</Hsp_query-to>
+      <Hsp_hit-from>144440</Hsp_hit-from>
+      <Hsp_hit-to>144610</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>2</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>LKKGYGKIINIASMVSWFGGQTVPAYSAAKGGVTQMTKEMSNDWIARGINVNAIAPG</Hsp_qseq>
+      <Hsp_hseq>LRKNKGALLFVSATLHYYGVPLQVHVGAAKAGVDALSNALAVELGPLGIRSNCIAPG</Hsp_hseq>
+      <Hsp_midline>L+K  G ++ +++ + ++G        AAK GV  ++  ++ +    GI  N IAPG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12</Hit_id>
+  <Hit_def>DOC_62 [organism=Schwanniomyces occidentalis]</Hit_def>
+  <Hit_accession>12</Hit_accession>
+  <Hit_len>1874157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.8882</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>1.23908e-05</Hsp_evalue>
+      <Hsp_query-from>166</Hsp_query-from>
+      <Hsp_query-to>471</Hsp_query-to>
+      <Hsp_hit-from>1245679</Hsp_hit-from>
+      <Hsp_hit-to>1245984</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>GDVDILVNAHGIQRRHSAEEFPIAEWDEVMNVNLNSVFILCQEAAKIMLKKGYGKIINIASMVSWFGGQTVPAYSAAKGGVTQMTKEMSNDWIARGINVNAI</Hsp_qseq>
+      <Hsp_hseq>GKVTVLINNAGITSGKTLLDLSYNEIEKTIQINLLSSFYTIKTFLPDMLQMQRGYIVTIASVLGYMSPARLSAYGASKSGLIALHESLTYELGPPSINTTGV</Hsp_hseq>
+      <Hsp_midline>G V +L+N  GI    +  +    E ++ + +NL S F   +     ML+   G I+ IAS++ +     + AY A+K G+  + + ++ +     IN   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|22</Hit_id>
+  <Hit_def>DOC_59 [organism=Schwanniomyces occidentalis]</Hit_def>
+  <Hit_accession>22</Hit_accession>
+  <Hit_len>1009670</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.6807</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.000114457</Hsp_evalue>
+      <Hsp_query-from>550</Hsp_query-from>
+      <Hsp_query-to>663</Hsp_query-to>
+      <Hsp_hit-from>504661</Hsp_hit-from>
+      <Hsp_hit-to>504774</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-3</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>38</Hsp_align-len>
+      <Hsp_qseq>RIPANRWGTGDDMKGCCIFLASHASDYLGGAIIPVDGG</Hsp_qseq>
+      <Hsp_hseq>RIPLKRLGQVDNMIGPAVFLASELSEYVTGSQLLVDGG</Hsp_hseq>
+      <Hsp_midline>RIP  R G  D+M G  +FLAS  S+Y+ G+ + VDGG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>64</Statistics_db-num>
+      <Statistics_db-len>13164083</Statistics_db-len>
+      <Statistics_hsp-len>42</Statistics_hsp-len>
+      <Statistics_eff-space>806902376</Statistics_eff-space>
+      <Statistics_kappa>0.133956144488482</Statistics_kappa>
+      <Statistics_lambda>0.317605957635731</Statistics_lambda>
+      <Statistics_entropy>0.401214524497119</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>3</Iteration_iter-num>
+  <Iteration_query-ID>Query_3</Iteration_query-ID>
+  <Iteration_query-def>CGC63_05805</Iteration_query-def>
+  <Iteration_query-len>1407</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>64</Statistics_db-num>
+      <Statistics_db-len>13164083</Statistics_db-len>
+      <Statistics_hsp-len>44</Statistics_hsp-len>
+      <Statistics_eff-space>1863714675</Statistics_eff-space>
+      <Statistics_kappa>0.133956144488482</Statistics_kappa>
+      <Statistics_lambda>0.317605957635731</Statistics_lambda>
+      <Statistics_entropy>0.401214524497119</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>4</Iteration_iter-num>
+  <Iteration_query-ID>Query_4</Iteration_query-ID>
+  <Iteration_query-def>CGC63_11500</Iteration_query-def>
+  <Iteration_query-len>1071</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>64</Statistics_db-num>
+      <Statistics_db-len>13164083</Statistics_db-len>
+      <Statistics_hsp-len>44</Statistics_hsp-len>
+      <Statistics_eff-space>1372571043</Statistics_eff-space>
+      <Statistics_kappa>0.133956144488482</Statistics_kappa>
+      <Statistics_lambda>0.317605957635731</Statistics_lambda>
+      <Statistics_entropy>0.401214524497119</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>5</Iteration_iter-num>
+  <Iteration_query-ID>Query_5</Iteration_query-ID>
+  <Iteration_query-def>CGC63_11505</Iteration_query-def>
+  <Iteration_query-len>1569</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>64</Statistics_db-num>
+      <Statistics_db-len>13164083</Statistics_db-len>
+      <Statistics_hsp-len>45</Statistics_hsp-len>
+      <Statistics_eff-space>2096100266</Statistics_eff-space>
+      <Statistics_kappa>0.133956144488482</Statistics_kappa>
+      <Statistics_lambda>0.317605957635731</Statistics_lambda>
+      <Statistics_entropy>0.401214524497119</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>No hits found</Iteration_message>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>6</Iteration_iter-num>
+  <Iteration_query-ID>Query_6</Iteration_query-ID>
+  <Iteration_query-def>CGC63_10955</Iteration_query-def>
+  <Iteration_query-len>657</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|12</Hit_id>
+  <Hit_def>DOC_62 [organism=Schwanniomyces occidentalis]</Hit_def>
+  <Hit_accession>12</Hit_accession>
+  <Hit_len>1874157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.415</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>1.32887e-49</Hsp_evalue>
+      <Hsp_query-from>184</Hsp_query-from>
+      <Hsp_query-to>513</Hsp_query-to>
+      <Hsp_hit-from>742954</Hsp_hit-from>
+      <Hsp_hit-to>743283</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>FFDVHIMALDPTALIEDFAKAGADLITVHVEACPNLDRTLRLIREKGCKVGVAINPATSVHVLENVLEIVDMVLIMTVNPGFGGQAYIPYCANKVRQIREMAKERNLTLD</Hsp_qseq>
+      <Hsp_hseq>FFDCHMMVAEPEKWVAEVAKAGGDQYTFHYEATKDPVGLVKLIKSHGLKAACAIKPGTPVDVLYPLAEYLDMALVMTVEPGFGGQHFMPEMMPKVEALRAKFPNLNIQVD</Hsp_hseq>
+      <Hsp_midline>FFD H+M  +P   + + AKAG D  T H EA  +    ++LI+  G K   AI P T V VL  + E +DM L+MTV PGFGGQ ++P    KV  +R      N+ +D</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>79.421</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>1.32887e-49</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>743317</Hsp_hit-from>
+      <Hsp_hit-to>743472</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>LSPSILAADFSNLGEEITKVERAGARWLHIDIMDGQFVPSISMGIPVISSIR</Hsp_qseq>
+      <Hsp_hseq>IAPSILASDFANLGCNCHRMYDSGADWLHIDVMDGHFVPNISLGPPIITSLR</Hsp_hseq>
+      <Hsp_midline>++PSILA+DF+NLG    ++  +GA WLHID+MDG FVP+IS+G P+I+S+R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>50.5539</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>1.32887e-49</Hsp_evalue>
+      <Hsp_query-from>508</Hsp_query-from>
+      <Hsp_query-to>606</Hsp_query-to>
+      <Hsp_hit-from>742873</Hsp_hit-from>
+      <Hsp_hit-to>742971</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>33</Hsp_align-len>
+      <Hsp_qseq>LDIEVDGGINKNTIQEVVDAGANIIVAGSAVFQ</Hsp_qseq>
+      <Hsp_hseq>LNIQVDGGLGKDTIPAAAEAGANVIVAGTSVFK</Hsp_hseq>
+      <Hsp_midline>L+I+VDGG+ K+TI    +AGAN+IVAG++VF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>64</Statistics_db-num>
+      <Statistics_db-len>13164083</Statistics_db-len>
+      <Statistics_hsp-len>42</Statistics_hsp-len>
+      <Statistics_eff-space>776205003</Statistics_eff-space>
+      <Statistics_kappa>0.133956144488482</Statistics_kappa>
+      <Statistics_lambda>0.317605957635731</Statistics_lambda>
+      <Statistics_entropy>0.401214524497119</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>7</Iteration_iter-num>
+  <Iteration_query-ID>Query_7</Iteration_query-ID>
+  <Iteration_query-def>CGC63_04285</Iteration_query-def>
+  <Iteration_query-len>1470</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|20</Hit_id>
+  <Hit_def>DOC_51 [organism=Schwanniomyces occidentalis]</Hit_def>
+  <Hit_accession>20</Hit_accession>
+  <Hit_len>1253761</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.9718</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>5.65578e-05</Hsp_evalue>
+      <Hsp_query-from>985</Hsp_query-from>
+      <Hsp_query-to>1128</Hsp_query-to>
+      <Hsp_hit-from>407565</Hsp_hit-from>
+      <Hsp_hit-to>407708</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>VYFLPYLMGERSPHNNPNARGTFIGLTMDTTRADMTQAVLEGVAFAIR</Hsp_qseq>
+      <Hsp_hseq>VVFIPAFSGLYAPYWDGGARGTIFGMTQYTSSSHIARAALEGVCFQVR</Hsp_hseq>
+      <Hsp_midline>V F+P   G  +P+ +  ARGT  G+T  T+ + + +A LEGV F +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>64</Statistics_db-num>
+      <Statistics_db-len>13164083</Statistics_db-len>
+      <Statistics_hsp-len>45</Statistics_hsp-len>
+      <Statistics_eff-space>1951390415</Statistics_eff-space>
+      <Statistics_kappa>0.133956144488482</Statistics_kappa>
+      <Statistics_lambda>0.317605957635731</Statistics_lambda>
+      <Statistics_entropy>0.401214524497119</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>8</Iteration_iter-num>
+  <Iteration_query-ID>Query_8</Iteration_query-ID>
+  <Iteration_query-def>CGC63_10910</Iteration_query-def>
+  <Iteration_query-len>1545</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|3</Hit_id>
+  <Hit_def>DOC_64 [organism=Schwanniomyces occidentalis]</Hit_def>
+  <Hit_accession>3</Hit_accession>
+  <Hit_len>618493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.4903</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>9.86521e-10</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>517828</Hsp_hit-from>
+      <Hsp_hit-to>518064</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>YLLGVDVGTTSIKVAIIDKNAKLLGISSSSYPLITPNQDYVHIDTEGMWQAYLKCIRLLLQGKGISPEKIAGIGISSLC</Hsp_qseq>
+      <Hsp_hseq>YYVGVDVGTGSARACIIDTNGIILGLSERPITRHELKPNHITQSSTEIWNAICFCVKNCLRDSGVDPSEVFGIGFDATC</Hsp_hseq>
+      <Hsp_midline>Y +GVDVGT S +  IID N  +LG+S           +++   +  +W A   C++  L+  G+ P ++ GIG  + C</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.7317</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>9.86521e-10</Hsp_evalue>
+      <Hsp_query-from>1045</Hsp_query-from>
+      <Hsp_query-to>1215</Hsp_query-to>
+      <Hsp_hit-from>516709</Hsp_hit-from>
+      <Hsp_hit-to>516879</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-2</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>VVFLPYMQGERSPVWDPYARGVFFGVSLKSERKEFNRAVMEGCDYGLRQLCEIAEKV</Hsp_qseq>
+      <Hsp_hseq>IFFYGDFHGNRSPIADPSMRASIIGQSMDSSVNDLAIQYFGACEFIAQQTRQIIEEM</Hsp_hseq>
+      <Hsp_midline>+ F     G RSP+ DP  R    G S+ S   +        C++  +Q  +I E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|BL_ORD_ID|20</Hit_id>
+  <Hit_def>DOC_51 [organism=Schwanniomyces occidentalis]</Hit_def>
+  <Hit_accession>20</Hit_accession>
+  <Hit_len>1253761</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.876</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>9.97443e-07</Hsp_evalue>
+      <Hsp_query-from>1030</Hsp_query-from>
+      <Hsp_query-to>1188</Hsp_query-to>
+      <Hsp_hit-from>407550</Hsp_hit-from>
+      <Hsp_hit-to>407708</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>3</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>PGCGGVVFLPYMQGERSPVWDPYARGVFFGVSLKSERKEFNRAVMEGCDYGLR</Hsp_qseq>
+      <Hsp_hseq>PNSGGVVFIPAFSGLYAPYWDGGARGTIFGMTQYTSSSHIARAALEGVCFQVR</Hsp_hseq>
+      <Hsp_midline>P  GGVVF+P   G  +P WD  ARG  FG++  +      RA +EG  + +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>64</Statistics_db-num>
+      <Statistics_db-len>13164083</Statistics_db-len>
+      <Statistics_hsp-len>45</Statistics_hsp-len>
+      <Statistics_eff-space>2061019090</Statistics_eff-space>
+      <Statistics_kappa>0.135025058993088</Statistics_kappa>
+      <Statistics_lambda>0.317340090483237</Statistics_lambda>
+      <Statistics_entropy>0.400613815079857</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
