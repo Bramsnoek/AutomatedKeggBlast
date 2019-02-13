@@ -46,9 +46,10 @@ class KeggClient(object):
     def __get_nt_seq_for_genes(cls, org, gene_dict):
         genes = []
         gene_seqs = json.loads(TogoWS.entry("genes", ["{}:{}".format(org, x) for x in list(gene_dict.keys())], format="json", field="ntseq").read())
+        aa_seqs = json.loads(TogoWS.entry("genes", ["{}:{}".format(org, x) for x in list(gene_dict.keys())], format="json", field="aaseq").read())
 
         for i in range(0, len(gene_seqs)):
             gene_id = list(gene_dict.keys())[i]
-            genes.append(Gene(gene_id, gene_dict[gene_id], gene_seqs[i]))
+            genes.append(Gene(gene_id, gene_dict[gene_id], gene_seqs[i], aa_seqs[i]))
 
         return genes
