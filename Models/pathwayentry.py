@@ -6,6 +6,11 @@ class PathwayEntry(object):
     def get_org(self):
         return self.__org
 
+    def get_gene_for_id(self, gene_id):
+        for gene in self.__genes:
+            if gene.get_gene_id() == gene_id:
+                return gene
+
     def __str__(self):
         return "\n\t Organism: {} \n {}".format(self.__org, ''.join(str(gene) for gene in self.__genes))
 
