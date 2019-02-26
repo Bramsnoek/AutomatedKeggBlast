@@ -52,8 +52,8 @@ class BlastController(object):
             with open(fasta_dir, "w+") as file:
                 file.writelines(entry.get_fasta(protein))
 
-            blast = "{} -out {}/{}_blast_result_{}.xml -outfmt 5 -query {}/{}_genes.fasta -db {} -evalue {}".format(
-                blast_type, output_dir, entry.get_org(), blast_type, output_dir, entry.get_org(), database, evalue
+            blast = "{} -html -out {}/{}_blast_result_{}.xml -outfmt 5 -query {} -db {} -evalue {}".format(
+                blast_type, output_dir, entry.get_org(), blast_type, fasta_dir, database, evalue
             )
 
             process = subprocess.Popen(blast, env=os.environ.copy(), stdout=subprocess.PIPE)
